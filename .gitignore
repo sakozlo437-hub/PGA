@@ -1,47 +1,41 @@
-assets/external/
-.states
-*.db
-.web
-# Byte-compiled
-__pycache__/
-*.py[cod]
-*$py.class
+```
+# Environment
+.env
+.env.local
+*.env.*
 
-# Virtual environment
-venv/
+# Dependencies
 .venv/
-env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# IDE
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Environment & secrets
-.env
+# Logs
+*.log
 
-# Generated data (rebuild anytime)
-data/
-assets/
-
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
-# Test artifacts
-.pytest_cache/
-htmlcov/
+# Coverage
 .coverage
+coverage/
+htmlcov/
 
-# AI & Development Documentation
-walkthrough.md
-implementation_plan.md
-task.md
-AGENTS.md
-Agents_Team_Architecture/
-BUILD_GUIDE.md
-prd.md
-spec.md
-tests/
-
+# Testing
+.pytest_cache/
+.mypy_cache/
+```
